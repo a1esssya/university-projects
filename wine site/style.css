@@ -1,0 +1,326 @@
+body {
+  margin: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.conteiner {
+  margin: 0px 305px;
+}
+
+header {
+  min-height: 900px;
+  background-image: url("./img/bgc.png");
+  background-size: cover;
+  font-family: Montserrat;
+  color: #ffffff;
+}
+
+.contacts {
+  padding: 30px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+nav,
+.footer__info {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+nav a,
+.footer__info div {
+  border: 1px solid #ffffff;
+  flex-grow: 1;
+  padding: 13px 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav a:first-child,
+nav a:last-child,
+.footer__info div:first-child,
+.footer__info div:last-child {
+  border-left: none;
+  border-right: none;
+}
+
+.header__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 583px;
+}
+
+.header__buttons a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
+  background-color: #99862a;
+}
+
+.header__buttons a:first-child {
+  margin-right: 30px;
+}
+
+.flavor {
+  background-color: #282828;
+  color: #ffffff;
+  padding: 100px 0px;
+}
+
+.flavor__info {
+  border: 3px solid #c4c4c4;
+  padding: 60px 150px;
+  text-align: center;
+}
+
+.flavor__title {
+  font-family: "Playfair Display";
+  font-size: 28px;
+}
+
+.flavor hr {
+  width: 160px;
+  margin: 40px auto;
+}
+
+.flavor__text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.flavor__img {
+  height: 160px;
+  width: 160px;
+}
+
+.products {
+  background: #e6e3c4;
+  padding: 80px 0px;
+}
+
+.products__info {
+  border-top: 1px solid #998431;
+  border-bottom: 1px solid #998431;
+  font-family: "Montserrat";
+  color: #282828;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products__text {
+  padding-right: 100px;
+}
+
+.products__about {
+  margin: 60px 0px 30px;
+  font-size: 14px;
+}
+
+.products__title {
+  font-family: "Playfair Display";
+  font-size: 30px;
+}
+
+.products__info hr {
+  width: 160px;
+  margin: 30px 0px;
+  background-color: #282828;
+  color: #282828;
+}
+
+.products__info-1 {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.products__info-2 {
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.products__button {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
+  background-color: #99862a;
+}
+
+.bord-b {
+  border-bottom: 1px solid #282828;
+}
+
+.bord-r {
+  border-right: 1px solid #282828;
+}
+
+.table {
+  width: 400px;
+  height: 228px;
+}
+
+.table__wraper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-column-gap: 25px;
+}
+
+.table__year {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 14px;
+}
+
+.table__title {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.table__text {
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.products__imgs {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.products__img-1 {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.products__img-2 {
+  width: 182px;
+  height: 182px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.form {
+  background: #282828;
+  padding: 129px 0px 100px;
+}
+
+.form__info {
+  border: 3px solid #c4c4c4;
+  min-height: 538px;
+  padding: 0px 220px;
+}
+
+.form__img-1 {
+  position: absolute;
+  margin-left: 275px;
+  margin-top: -70px;
+  width: 200px;
+}
+
+.form__img-2 {
+  position: absolute;
+  margin-left: 520px;
+  margin-top: -40px;
+}
+
+.form__img-3 {
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: -60px;
+  width: 200px;
+}
+
+.form hr {
+  margin-top: 65px;
+  width: 118px;
+  margin-bottom: 40px;
+}
+
+.form__text {
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 150%;
+  margin-bottom: 80px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__phone {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.form__phone input,
+#place {
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #c4c4c4;
+  background-color: #282828;
+  color: #ffffff;
+  height: 30px;
+}
+
+.form__phone input {
+  width: 210px;
+}
+
+#place {
+  margin-bottom: 50px;
+}
+
+.form__button {
+  padding: 15px 30px;
+  background-color: #282828;
+  color: #ffffff;
+  border: 1px solid #c4c4c4;
+}
+
+footer {
+  background-color: #998431;
+  padding-top: 50px;
+}
+
+.footer__info {
+  padding-bottom: 50px;
+  font-weight: 600;
+}
+
+.footer__imgs a {
+  margin-right: 30px;
+}
+
+.footer__imgs a:last-child {
+  margin-right: 0px;
+}
+
+.footer__nav {
+  display: flex;
+  border-top: 1px solid #ffffff;
+  justify-content: space-evenly;
+  padding: 19px 0px;
+}
+
+.footer__nav a {
+  color: #ffffff;
+  font-size: 14px;
+}
