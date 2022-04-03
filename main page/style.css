@@ -1,0 +1,53 @@
+body {
+  box-sizing: border-box;
+  font-family: Comfortaa, "sans-serif", Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  padding: 16px 240px 54px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+header a {
+  text-decoration: none;
+  color: #254626;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: #64c209;
+}
+
+.main-content {
+  background-image: url(img/mainBackground.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 836px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  font-family: Merriweather;
+  font-size: 70px;
+  font-weight: 700;
+  color: #254626;
+  margin-top: 62px;
+}
+
+.maim-desription {
+  font-size: 13px;
+  color: #254626;
+}
+
+.main-orderButton {
+  padding: 15px 28px;
+  background-color: #64c209;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 42px;
+}
